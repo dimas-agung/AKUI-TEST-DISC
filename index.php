@@ -20,6 +20,7 @@ date_default_timezone_set('Asia/Jakarta');
 
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
   <title>Login</title>
+  <link rel="shortcut icon" type="image/png" href="logo2.svg" />
 </head>
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
