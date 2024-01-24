@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -3424,41 +3423,6 @@ switch (line3[3]) {
                 break;
             }
 
-          
-        //   console.log(line1);
-        //   console.log(line2);
-        //   console.log(line3);
-        //   console.log(hasilno1);
-        //   console.log(hasilno2);
-        //   console.log(hasilno3);
-        //   console.log(hasilno4);
-        //   console.log(hasilno5);
-        //   console.log(hasilno6);
-        //   console.log(hasilno7);
-        //   console.log(hasilno8);
-        //   console.log(hasilno9);
-        //   console.log(hasilno10);
-        //   console.log(hasilno11);
-        //   console.log(hasilno12);
-        //   console.log(hasilno13);
-        //   console.log(hasilno14);
-        //   console.log(hasilno15);
-        //   console.log(hasilno16);
-        //   console.log(hasilno17);
-        //   console.log(hasilno18);
-        //   console.log(hasilno19);
-        //   console.log(hasilno20);
-        //   console.log(hasilno21);
-        //   console.log(hasilno22);
-        //   console.log(hasilno23);
-        //   console.log(hasilno24);
-        //   console.log(grafik1);
-        //   console.log(grafik2);
-        //   console.log(grafik3);
-        //   console.log(baris1);
-        //   console.log(baris2);
-        //   console.log(baris3);
-
           var umum = tableKepribadian[baris1].typeKepribadian;
           var kep = tableKepribadian[baris1].gambaranDiri;
 
@@ -3468,8 +3432,6 @@ switch (line3[3]) {
           var umum3 = tableKepribadian[baris3].gambaranDiri;
           var kep3 = tableKepribadian[baris3].gambaranDiri
 
-
-          
 
           var kep_umum = [umum, kep];
           var kep_tekan = [umum2, kep2];
