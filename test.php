@@ -3429,8 +3429,8 @@ switch (line3[3]) {
           var umum2 = tableKepribadian[baris2].typeKepribadian;
           var kep2 = tableKepribadian[baris2].gambaranDiri;
 
-          var umum3 = tableKepribadian[baris3].gambaranDiri;
-          var kep3 = tableKepribadian[baris3].gambaranDiri
+          var umum3 = tableKepribadian[baris3].typeKepribadian;
+          var kep3 = tableKepribadian[baris3].gambaranDiri;
 
 
           var kep_umum = [umum, kep];
