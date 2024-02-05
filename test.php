@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/w3-theme-indigo.css" media="all" id="disc_css">
   <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
   <script src="js/jquery.min.js"></script>
+  <script src="aem.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <style>body,h1,h2,h3,h4,h5 {color: black; font-family: "Raleway", sans-serif}
   .w3-closebtn {text-decoration: none;float: right;font-size: 24px;font-weight: bold;color: inherit;} .w16left{padding-left:16px !important;} </style>
@@ -879,11 +880,7 @@ const totalQuestions = 48;
     const answeredQuestions = $('input:radio[required]:checked').length;
     const unansweredQuestions = answeredQuestions !== totalQuestions;
 
-    // console.log('Total Questions:', totalQuestions);
-    // console.log('Answered Questions:', answeredQuestions);
-
     if (unansweredQuestions) {
-        // Tampilkan pesan kesalahan jika ada pertanyaan yang belum dijawab
         Swal.fire({
             title: 'Error',
             text: 'Pastikan semua pertanyaan telah dijawab.',
@@ -3423,6 +3420,8 @@ switch (line3[3]) {
                 break;
             }
 
+          var jawab = [hasilno1, hasilno2, hasilno3, hasilno4, hasilno5, hasilno6, hasilno7, hasilno8, hasilno9, hasilno10, hasilno11, hasilno12, hasilno13, hasilno14, hasilno15, hasilno16, hasilno17, hasilno18, hasilno19, hasilno20, hasilno21, hasilno22, hasilno23, hasilno24];
+
           var umum = tableKepribadian[baris1].typeKepribadian;
           var kep = tableKepribadian[baris1].gambaranDiri;
 
@@ -3438,9 +3437,18 @@ switch (line3[3]) {
           var kep_sembunyi = [umum3, kep3]
           var job = tableKepribadian[baris3].JOB_RELEVAN;
           var person = tableKepribadian[baris3].Personality;
-
+        console.log(line1);
+        console.log(line2);
+        console.log(line3);
+        console.log(grafik1);
+        console.log(grafik2);
+        console.log(grafik3);
           console.log(kep_umum);
-
+          console.log(kep_tekan);
+          console.log(kep_sembunyi);
+          console.log(job);
+          console.log(person);
+          console.log(jawab);
           
 
           var data = localStorage.getItem('key');

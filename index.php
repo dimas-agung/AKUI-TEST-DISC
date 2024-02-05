@@ -1,8 +1,20 @@
 <?php
 session_start();
+
 if(isset($_POST['submit'])){
-    header("Location: instruksi.php");
-    exit;
+    $currentDate = date('Y-m-d');
+    $allowedDate = '2024-02-05';
+    
+    $currentHour = date('H'); 
+    
+
+    if ($currentDate == $allowedDate && $currentHour >= 15 ) {
+      echo $currentHour;
+        header("Location: test.php");
+        exit;
+    } else {
+        $errorMessage = "Login is only allowed on February 5, 2024, between 14:00 and 15:00.";
+    }
 }
 
 date_default_timezone_set('Asia/Jakarta');
@@ -15,9 +27,6 @@ date_default_timezone_set('Asia/Jakarta');
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- <link rel="stylesheet" href="style.css" /> -->
-  <!-- Add this in the <head> section of your HTML -->
-
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
   <title>Login</title>
   <link rel="shortcut icon" type="image/png" href="logo2.svg" />
@@ -208,7 +217,7 @@ date_default_timezone_set('Asia/Jakarta');
   <section>
     <div class="wrapper">
       <form action="" method="post">
-        <h2>DISC Test</h2>
+        <h2>DISC Test <?=date('H')?></h2>
         <div class="inputbox" id="nik">
           <input type="text" id="ussr" required class="input" name="nik" />
           <label for="ussr">NIK </label>
@@ -221,43 +230,59 @@ date_default_timezone_set('Asia/Jakarta');
   </section>
   <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
   <script>
-    localStorage.clear();
-    $(document).ready(function () {
-      // Button click event
-      $("#submitBtn").on("click", function () {
-        // Get the value from the input field
-        var nik = $("#ussr").val();
+  localStorage.clear();
+  $(document).ready(function () {
+    // Button click event
+    $("#submitBtn").on("click", function () {
+      // Get the value from the input field
+      var nik = $("#ussr").val();
 
-        // Check if NIK i
-        if (nik.trim() !== "") {
-          $.ajax({
-            url: "api/api_disc_login.php",
-            type: "GET",
-            data: { nik: nik },
-            dataType: "json",
-            success: function (data) {
-              console.log(data);
+      // Check if NIK is not empty
+      if (nik.trim() !== "") {
+        // Perform the date and time check
+        $.ajax({
+          url: "api/api_disc_login.php",
+          type: "GET",
+          data: { nik: nik },
+          dataType: "json",
+          success: function (data) {
+            console.log(data);
+            
+            // Check if the date and time conditions are met
+            var currentDate = new Date().toLocaleDateString('en-US');
+            var currentTime = new Date().getHours();
+            
+            if (currentDate === '2/5/2024' && currentTime >= 15 && currentTime < 16) {
               // Store the data in local storage
               localStorage.setItem('key', JSON.stringify(data));
-
-              // Redirect or perform other actions if needed
+              
+              // Redirect to test.php if conditions are met
               window.location.href = "test.php";
-            },
-            error: function (error) {
+            } else {
+              // Display a SweetAlert for conditions not met
               Swal.fire({
-                icon: 'error',
+                icon: 'warning',
                 title: 'Oops...',
-                text: 'NIK yang kamu masukkan mungkin tidak terdaftar atau salah',
-                // footer: '<a href="#">Why do I have this issue?</a>'
+                text: 'Tes ini hanya dapat diakses pada tanggal 5 Februari 2024, antara jam 3 dan 4.',
               });
             }
-          });
-        } else {
-          $("#errorMessage").text("NIK cannot be empty");
-        }
-      });
+          },
+          error: function (error) {
+            // Display a SweetAlert for API error
+            Swal.fire({
+              icon: 'error',
+              title: 'Oops...',
+              text: 'NIK yang kamu masukkan mungkin tidak terdaftar atau salah',
+            });
+          }
+        });
+      } else {
+        // Display an error message if NIK is empty
+        $("#errorMessage").text("NIK cannot be empty");
+      }
     });
-  </script>
+  });
+</script>
   <script src="{{asset('assets/js/plugin/sweetalert/sweetalert.min.js')}}"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
