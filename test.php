@@ -8,13 +8,13 @@
   <meta name="keywords" content="DiSC, personality, test, indonesia" />
   <meta name="robots" content="index, follow" />
   <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" href="css/w3.css">
   <link rel="stylesheet" href="css/w3-theme-indigo.css" media="all" id="disc_css">
   <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
   <script src="js/jquery.min.js"></script>
   <script src="aem.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <style>body,h1,h2,h3,h4,h5 {color: black; font-family: "Raleway", sans-serif}
+  <style>body,h1,h2,h3,h4,h5 {color: black; font-family: "Raleway", sans-serif}
   .w3-closebtn {text-decoration: none;float: right;font-size: 24px;font-weight: bold;color: inherit;} .w16left{padding-left:16px !important;} </style>
 </head>
 <body>
@@ -113,10 +113,10 @@
               </thead>
               <tbody>
               <tr class="w3-theme-l3">                                    <th rowspan='4'>2</th>
-                                    <td class='w16left'>Lembut suara, Pendiam</td>
+                  <td class='w16left'>Lembut suara, Pendiam</td>
                   <td><input type='radio' class='w3-radio' id='m_2_0' name='m[2]' value='C' required></td>
                   <td><input type='radio' class='w3-radio' id='l_2_0' name='l[2]' value='*' required></td>
-                </tr>
+              </tr>
               <tr class="w3-theme-l3">                               <td class='w16left'>Optimistik, Visioner</td>
                   <td><input type='radio' class='w3-radio' id='m_2_1' name='m[2]' value='D' required></td>
                   <td><input type='radio' class='w3-radio' id='l_2_1' name='l[2]' value='D' required></td>
@@ -144,7 +144,7 @@
               </thead>
               <tbody>
               <tr>                                    <th rowspan='4'>3</th>
-                                    <td class='w16left'>Menyemangati orang</td>
+                  <td class='w16left'>Menyemangati orang</td>
                   <td><input type='radio' class='w3-radio' id='m_3_0' name='m[3]' value='I' required></td>
                   <td><input type='radio' class='w3-radio' id='l_3_0' name='l[3]' value='I' required></td>
                 </tr>
@@ -160,7 +160,7 @@
                   <td><input type='radio' class='w3-radio' id='m_3_3' name='m[3]' value='D' required></td>
                   <td><input type='radio' class='w3-radio' id='l_3_3' name='l[3]' value='*' required></td>
                 </tr>
-                            </tbody>
+                </tbody>
             </table>
                    </div>
                     <div class="w3-col m6 l3">
@@ -175,7 +175,7 @@
               </thead>
               <tbody>
               <tr class="w3-theme-l3">                                    <th rowspan='4'>4</th>
-                                    <td class='w16left'>Menjadi frustasi</td>
+                  <td class='w16left'>Menjadi frustasi</td>
                   <td><input type='radio' class='w3-radio' id='m_4_0' name='m[4]' value='C' required></td>
                   <td><input type='radio' class='w3-radio' id='l_4_0' name='l[4]' value='C' required></td>
                 </tr>
@@ -191,7 +191,7 @@
                   <td><input type='radio' class='w3-radio' id='m_4_3' name='m[4]' value='D' required></td>
                   <td><input type='radio' class='w3-radio' id='l_4_3' name='l[4]' value='D' required></td>
                 </tr>
-                            </tbody>
+                </tbody>
             </table>
                    </div>
                   </div>
@@ -208,7 +208,7 @@
               </thead>
               <tbody>
               <tr>                                    <th rowspan='4'>5</th>
-                                    <td class='w16left'>Hidup, Suka bicara</td>
+                  <td class='w16left'>Hidup, Suka bicara</td>
                   <td><input type='radio' class='w3-radio' id='m_5_0' name='m[5]' value='I' required></td>
                   <td><input type='radio' class='w3-radio' id='l_5_0' name='l[5]' value='*' required></td>
                 </tr>
@@ -224,10 +224,10 @@
                   <td><input type='radio' class='w3-radio' id='m_5_3' name='m[5]' value='*' required></td>
                   <td><input type='radio' class='w3-radio' id='l_5_3' name='l[5]' value='C' required></td>
                 </tr>
-                            </tbody>
+                </tbody>
             </table>
                    </div>
-                    <div class="w3-col m6 l3">
+                  <div class="w3-col m6 l3">
                   <table class='w3-table'>
               <thead>
               <tr class='w3-theme-d3'>
@@ -239,7 +239,7 @@
               </thead>
               <tbody>
               <tr class="w3-theme-l3">                                    <th rowspan='4'>6</th>
-                                    <td class='w16left'>Kelola waktu secara efisien</td>
+                  <td class='w16left'>Kelola waktu secara efisien</td>
                   <td><input type='radio' class='w3-radio' id='m_6_0' name='m[6]' value='C' required></td>
                   <td><input type='radio' class='w3-radio' id='l_6_0' name='l[6]' value='*' required></td>
                 </tr>
@@ -255,7 +255,7 @@
                   <td><input type='radio' class='w3-radio' id='m_6_3' name='m[6]' value='S' required></td>
                   <td><input type='radio' class='w3-radio' id='l_6_3' name='l[6]' value='S' required></td>
                 </tr>
-                            </tbody>
+                 </tbody>
             </table>
                    </div>
                     <div class="w3-col m6 l3">
@@ -270,7 +270,7 @@
               </thead>
               <tbody>
               <tr>                                    <th rowspan='4'>7</th>
-                                    <td class='w16left'>Tolak perubahan mendadak</td>
+                <td class='w16left'>Tolak perubahan mendadak</td>
                   <td><input type='radio' class='w3-radio' id='m_7_0' name='m[7]' value='S' required></td>
                   <td><input type='radio' class='w3-radio' id='l_7_0' name='l[7]' value='*' required></td>
                 </tr>
@@ -286,10 +286,10 @@
                   <td><input type='radio' class='w3-radio' id='m_7_3' name='m[7]' value='*' required></td>
                   <td><input type='radio' class='w3-radio' id='l_7_3' name='l[7]' value='D' required></td>
                 </tr>
-                            </tbody>
+                </tbody>
             </table>
                    </div>
-                    <div class="w3-col m6 l3">
+                  <div class="w3-col m6 l3">
                   <table class='w3-table'>
               <thead>
               <tr class='w3-theme-d3'>
@@ -298,10 +298,10 @@
                 <th>P</th>
                 <th>K</th>
               </tr>
-              </thead>
+              </thead> 
               <tbody>
               <tr class="w3-theme-l3">                                    <th rowspan='4'>8</th>
-                                    <td class='w16left'>Penyemangat yang baik</td>
+                  <td class='w16left'>Penyemangat yang baik</td>
                   <td><input type='radio' class='w3-radio' id='m_8_0' name='m[8]' value='I' required></td>
                   <td><input type='radio' class='w3-radio' id='l_8_0' name='l[8]' value='I' required></td>
                 </tr>
@@ -317,12 +317,12 @@
                   <td><input type='radio' class='w3-radio' id='m_8_3' name='m[8]' value='D' required></td>
                   <td><input type='radio' class='w3-radio' id='l_8_3' name='l[8]' value='D' required></td>
                 </tr>
-                            </tbody>
+                </tbody>
             </table>
                    </div>
                   </div>
                 <div class="w3-row">
-                    <div class="w3-col m6 l3">
+                  <div class="w3-col m6 l3">
                   <table class='w3-table'>
               <thead>
               <tr class='w3-theme-d3'>
@@ -334,7 +334,7 @@
               </thead>
               <tbody>
               <tr>                                    <th rowspan='4'>9</th>
-                                    <td class='w16left'>Hasil adalah penting</td>
+                  <td class='w16left'>Hasil adalah penting</td>
                   <td><input type='radio' class='w3-radio' id='m_9_0' name='m[9]' value='D' required></td>
                   <td><input type='radio' class='w3-radio' id='l_9_0' name='l[9]' value='D' required></td>
                 </tr>
@@ -350,7 +350,7 @@
                   <td><input type='radio' class='w3-radio' id='m_9_3' name='m[9]' value='*' required></td>
                   <td><input type='radio' class='w3-radio' id='l_9_3' name='l[9]' value='S' required></td>
                 </tr>
-                            </tbody>
+                </tbody>
             </table>
                    </div>
                     <div class="w3-col m6 l3">
@@ -365,7 +365,7 @@
               </thead>
               <tbody>
               <tr class="w3-theme-l3">                                    <th rowspan='4'>10</th>
-                                    <td class='w16left'>Akan berjalan terus tanpa kontrol diri</td>
+                  <td class='w16left'>Akan berjalan terus tanpa kontrol diri</td>
                   <td><input type='radio' class='w3-radio' id='m_10_0' name='m[10]' value='*' required></td>
                   <td><input type='radio' class='w3-radio' id='l_10_0' name='l[10]' value='C' required></td>
                 </tr>
@@ -381,7 +381,7 @@
                   <td><input type='radio' class='w3-radio' id='m_10_3' name='m[10]' value='I' required></td>
                   <td><input type='radio' class='w3-radio' id='l_10_3' name='l[10]' value='*' required></td>
                 </tr>
-                            </tbody>
+                </tbody>
             </table>
                    </div>
                     <div class="w3-col m6 l3">
@@ -396,7 +396,7 @@
               </thead>
               <tbody>
               <tr>                                    <th rowspan='4'>11</th>
-                                    <td class='w16left'>Ramah, Mudah bergabung</td>
+                  <td class='w16left'>Ramah, Mudah bergabung</td>
                   <td><input type='radio' class='w3-radio' id='m_11_0' name='m[11]' value='S' required></td>
                   <td><input type='radio' class='w3-radio' id='l_11_0' name='l[11]' value='*' required></td>
                 </tr>
@@ -412,7 +412,7 @@
                   <td><input type='radio' class='w3-radio' id='m_11_3' name='m[11]' value='C' required></td>
                   <td><input type='radio' class='w3-radio' id='l_11_3' name='l[11]' value='C' required></td>
                 </tr>
-                            </tbody>
+                </tbody>
             </table>
                    </div>
                     <div class="w3-col m6 l3">
@@ -427,7 +427,7 @@
               </thead>
               <tbody>
               <tr class="w3-theme-l3">                                    <th rowspan='4'>12</th>
-                                    <td class='w16left'>Non-konfontrasi, Menyerah</td>
+                   <td class='w16left'>Non-konfontrasi, Menyerah</td>
                   <td><input type='radio' class='w3-radio' id='m_12_0' name='m[12]' value='*' required></td>
                   <td><input type='radio' class='w3-radio' id='l_12_0' name='l[12]' value='S' required></td>
                 </tr>
@@ -443,12 +443,12 @@
                   <td><input type='radio' class='w3-radio' id='m_12_3' name='m[12]' value='D' required></td>
                   <td><input type='radio' class='w3-radio' id='l_12_3' name='l[12]' value='D' required></td>
                 </tr>
-                            </tbody>
+                </tbody>
             </table>
                    </div>
                   </div>
                 <div class="w3-row">
-                    <div class="w3-col m6 l3">
+                  <div class="w3-col m6 l3">
                   <table class='w3-table'>
               <thead>
               <tr class='w3-theme-d3'>
@@ -460,7 +460,7 @@
               </thead>
               <tbody>
               <tr>                                    <th rowspan='4'>13</th>
-                                    <td class='w16left'>Ingin Kemajuan</td>
+                  <td class='w16left'>Ingin Kemajuan</td>
                   <td><input type='radio' class='w3-radio' id='m_13_0' name='m[13]' value='D' required></td>
                   <td><input type='radio' class='w3-radio' id='l_13_0' name='l[13]' value='D' required></td>
                 </tr>
@@ -476,7 +476,7 @@
                   <td><input type='radio' class='w3-radio' id='m_13_3' name='m[13]' value='*' required></td>
                   <td><input type='radio' class='w3-radio' id='l_13_3' name='l[13]' value='C' required></td>
                 </tr>
-                            </tbody>
+                </tbody>
             </table>
                    </div>
                     <div class="w3-col m6 l3">
@@ -862,17 +862,9 @@
 <script src="js/disc.id.v2.js"></script>   
 <script>
 $(document).ready(function () {
-    var data = localStorage.getItem('key');
+    var data = localStorage.getItem('nama');
+        var nama = data;
 
-        // Parse the JSON string into an object
-        var parsedData = JSON.parse(data);
-        var nama = parsedData.data.nama;
-
-        // Access the 'nama' property of the object
-
-
-
-        // Display the user's name from the array in the HTML
         document.getElementById('userName').innerText = nama;
  $('#submitButton').click(function (event) {
 event.preventDefault();
@@ -893,7 +885,7 @@ const totalQuestions = 48;
     
 $('input:radio').on('click',function(){
   var m=$(this).attr('id');
-  //-- Check for 
+  
   if($('#'+(m.slice(0,1)=='m'?'l':'m')+'_'+m.slice(2)).is(':checked')){
       $('#msg').html('You cannot select both of `most` and `least` choice in the same term');
       $('#warning').show();
@@ -994,7 +986,7 @@ function getRadioValues() {
                     hasilno1.push('4C');
                 }
                 
-            }
+        }
 
             if ($('#l_1_0').length && $('#l_1_1').length && $('#l_1_2').length && $('#l_1_3').length) {
                 if ($('#l_1_0:checked').val() == 'S') {
@@ -1946,6 +1938,7 @@ function getRadioValues() {
 
           let bp = p1['*'] + p2['*'] + p3['*'] + p4['*'] + p5['*'] + p6['*'] + p7['*'] + p8['*'] + p9['*'] + p10['*'] + p11['*'] + p12['*'] + p13['*'] + p14['*'] + p15['*'] + p16['*'] + p17['*'] + p18['*'] + p19['*'] + p20['*'] + p21['*'] + p22['*'] + p23['*'] + p24['*'];
 
+          //total p
           let totalp = dp + ip + sp + cp + bp;
 
           let dk = k1['D'] + k2['D'] + k3['D'] + k4['D'] + k5['D'] + k6['D'] + k7['D'] + k8['D'] + k9['D'] + k10['D'] + k11['D'] + k12['D'] + k13['D'] + k14['D'] + k15['D'] + k16['D'] + k17['D'] + k18['D'] + k19['D'] + k20['D'] + k21['D'] + k22['D'] + k23['D'] + k24['D'];
@@ -1958,8 +1951,9 @@ function getRadioValues() {
 
           let bk = k1['*'] + k2['*'] + k3['*'] + k4['*'] + k5['*'] + k6['*'] + k7['*'] + k8['*'] + k9['*'] + k10['*'] + k11['*'] + k12['*'] + k13['*'] + k14['*'] + k15['*'] + k16['*'] + k17['*'] + k18['*'] + k19['*'] + k20['*'] + k21['*'] + k22['*'] + k23['*'] + k24['*'];
 
+          //total k
           let  totalk = dk + ik + sk + ck + bk;
-
+          
           let line1 = [dp, ip, sp, cp, bp, totalp];
           let line2 = [dk, ik, sk, ck, bk, totalk];
           
@@ -1972,978 +1966,973 @@ function getRadioValues() {
 
           var hasil_line1dp;
 
-switch (line1[0]) {
-    case 0:
-        hasil_line1dp = -6;
-        break;
-    case 1:
-        hasil_line1dp = -5.3;
-        break;
-    case 2:
-        hasil_line1dp = -4;
-        break;
-    case 3:
-        hasil_line1dp = -2.5;
-        break;
-    case 4:
-        hasil_line1dp = -1.7;
-        break;
-    case 5:
-        hasil_line1dp = -1.3;
-        break;
-    case 6:
-        hasil_line1dp = 0;
-        break;
-    case 7:
-        hasil_line1dp = 0.5;
-        break;
-    case 8:
-        hasil_line1dp = 1;
-        break;
-    case 9:
-        hasil_line1dp = 2;
-        break;
-    case 10:
-        hasil_line1dp = 3;
-        break;
-    case 11:
-        hasil_line1dp = 3.5;
-        break;
-    case 12:
-        hasil_line1dp = 4;
-        break;
-    case 13:
-        hasil_line1dp = 4.7;
-        break;
-    case 14:
-        hasil_line1dp = 5.3;
-        break;
-    case 15:
-        hasil_line1dp = 6.5;
-        break;
-    case 16:
-        hasil_line1dp = 7;
-        break;
-    case 17:
-    case 18:
-    case 19:
-        hasil_line1dp = 7;
-        break;
-    case 20:
-        hasil_line1dp = 7.5;
-        break;
-    default:
-        break;
-}
+        switch (line1[0]) {
+            case 0:
+                hasil_line1dp = -6;
+                break;
+            case 1:
+                hasil_line1dp = -5.3;
+                break;
+            case 2:
+                hasil_line1dp = -4;
+                break;
+            case 3:
+                hasil_line1dp = -2.5;
+                break;
+            case 4:
+                hasil_line1dp = -1.7;
+                break;
+            case 5:
+                hasil_line1dp = -1.3;
+                break;
+            case 6:
+                hasil_line1dp = 0;
+                break;
+            case 7:
+                hasil_line1dp = 0.5;
+                break;
+            case 8:
+                hasil_line1dp = 1;
+                break;
+            case 9:
+                hasil_line1dp = 2;
+                break;
+            case 10:
+                hasil_line1dp = 3;
+                break;
+            case 11:
+                hasil_line1dp = 3.5;
+                break;
+            case 12:
+                hasil_line1dp = 4;
+                break;
+            case 13:
+                hasil_line1dp = 4.7;
+                break;
+            case 14:
+                hasil_line1dp = 5.3;
+                break;
+            case 15:
+                hasil_line1dp = 6.5;
+                break;
+            case 16:
+                hasil_line1dp = 7;
+                break;
+            case 17:
+            case 18:
+            case 19:
+                hasil_line1dp = 7;
+                break;
+            case 20:
+                hasil_line1dp = 7.5;
+                break;
+            default:
+                break;
+        }
 
 
-var hasil_line1ip;
+        var hasil_line1ip;
 
-switch (line1[1]) {
-    case 0:
-        hasil_line1ip = -7;
-        break;
-    case 1:
-        hasil_line1ip = -4.6;
-        break;
-    case 2:
-        hasil_line1ip = -2.5;
-        break;
-    case 3:
-        hasil_line1ip = -1.3;
-        break;
-    case 4:
-        hasil_line1ip = 1;
-        break;
-    case 5:
-        hasil_line1ip = 3;
-        break;
-    case 6:
-        hasil_line1ip = 3.5;
-        break;
-    case 7:
-    case 8:
-    case 9:
-    case 10:
-    case 11:
-    case 12:
-    case 13:
-    case 14:
-    case 15:
-        hasil_line1ip = 7;
-        break;
-    case 16:
-    case 17:
-    case 18:
-    case 19:
-        hasil_line1ip = 7.5;
-        break;
-    case 20:
-        hasil_line1ip = 8;
-        break;
-    default:
-        break;
-}
-
-
-var hasil_line1sp;
-
-switch (line1[2]) {
-    case 0:
-        hasil_line1sp = -5.7;
-        break;
-    case 1:
-        hasil_line1sp = -4.3;
-        break;
-    case 2:
-        hasil_line1sp = -3.5;
-        break;
-    case 3:
-        hasil_line1sp = -1.5;
-        break;
-    case 4:
-        hasil_line1sp = -0.7;
-        break;
-    case 5:
-        hasil_line1sp = 0.5;
-        break;
-    case 6:
-        hasil_line1sp = 1;
-        break;
-    case 7:
-    case 8:
-    case 9:
-    case 10:
-    case 11:
-    case 12:
-    case 13:
-    case 14:
-    case 15:
-        hasil_line1sp = 6.5;
-        break;
-    case 16:
-    case 17:
-    case 18:
-        hasil_line1sp = 7;
-        break;
-    case 19:
-    case 20:
-        hasil_line1sp = 7.5;
-        break;
-    default:
-        // Handle default case if needed
-        break;
-}
-
-var hasil_line1cp;
-
-switch (line1[3]) {
-    case 0:
-        hasil_line1cp = -6;
-        break;
-    case 1:
-        hasil_line1cp = -4.7;
-        break;
-    case 2:
-        hasil_line1cp = -3.5;
-        break;
-    case 3:
-        hasil_line1cp = -1.5;
-        break;
-    case 4:
-        hasil_line1cp = 0.5;
-        break;
-    case 5:
-        hasil_line1cp = 2;
-        break;
-    case 6:
-        hasil_line1cp = 3;
-        break;
-    case 7:
-    case 8:
-    case 9:
-    case 10:
-    case 11:
-        hasil_line1cp = 6.5;
-        break;
-    case 12:
-    case 13:
-    case 14:
-    case 15:
-        hasil_line1cp = 7.3;
-        break;
-    case 16:
-    case 17:
-    case 18:
-    case 19:
-        hasil_line1cp = 8;
-        break;
-    case 20:
-        hasil_line1cp = 8;
-        break;
-    default:
-        // Handle default case if needed
-        break;
-}
+        switch (line1[1]) {
+            case 0:
+                hasil_line1ip = -7;
+                break;
+            case 1:
+                hasil_line1ip = -4.6;
+                break;
+            case 2:
+                hasil_line1ip = -2.5;
+                break;
+            case 3:
+                hasil_line1ip = -1.3;
+                break;
+            case 4:
+                hasil_line1ip = 1;
+                break;
+            case 5:
+                hasil_line1ip = 3;
+                break;
+            case 6:
+                hasil_line1ip = 3.5;
+                break;
+            case 7:
+            case 8:
+            case 9:
+            case 10:
+            case 11:
+            case 12:
+            case 13:
+            case 14:
+            case 15:
+                hasil_line1ip = 7;
+                break;
+            case 16:
+            case 17:
+            case 18:
+            case 19:
+                hasil_line1ip = 7.5;
+                break;
+            case 20:
+                hasil_line1ip = 8;
+                break;
+            default:
+                break;
+        }
 
 
-          //line2
-          var hasil_line2dk;
+        var hasil_line1sp;
+        switch (line1[2]) {
+            case 0:
+                hasil_line1sp = -5.7;
+                break;
+            case 1:
+                hasil_line1sp = -4.3;
+                break;
+            case 2:
+                hasil_line1sp = -3.5;
+                break;
+            case 3:
+                hasil_line1sp = -1.5;
+                break;
+            case 4:
+                hasil_line1sp = -0.7;
+                break;
+            case 5:
+                hasil_line1sp = 0.5;
+                break;
+            case 6:
+                hasil_line1sp = 1;
+                break;
+            case 7:
+            case 8:
+            case 9:
+            case 10:
+            case 11:
+            case 12:
+            case 13:
+            case 14:
+            case 15:
+                hasil_line1sp = 6.5;
+                break;
+            case 16:
+            case 17:
+            case 18:
+                hasil_line1sp = 7;
+                break;
+            case 19:
+            case 20:
+                hasil_line1sp = 7.5;
+                break;
+            default:
+                break;
+        }
 
-switch (line2[0]) {
-    case 0:
-        hasil_line2dk = 7.5;
-        break;
-    case 1:
-        hasil_line2dk = 6.5;
-        break;
-    case 2:
-        hasil_line2dk = 4.3;
-        break;
-    case 3:
-        hasil_line2dk = 2.5;
-        break;
-    case 4:
-        hasil_line2dk = 1.5;
-        break;
-    case 5:
-        hasil_line2dk = 0.5;
-        break;
-    case 6:
-        hasil_line2dk = 0;
-        break;
-    case 7:
-        hasil_line2dk = -1.3;
-        break;
-    case 8:
-        hasil_line2dk = -1.5;
-        break;
-    case 9:
-        hasil_line2dk = -2.5;
-        break;
-    case 10:
-        hasil_line2dk = -3;
-        break;
-    case 11:
-        hasil_line2dk = -3.5;
-        break;
-    case 12:
-        hasil_line2dk = -4.3;
-        break;
-    case 13:
-        hasil_line2dk = -5.3;
-        break;
-    case 14:
-        hasil_line2dk = -5.7;
-        break;
-    case 15:
-        hasil_line2dk = -6;
-        break;
-    case 16:
-        hasil_line2dk = -6.5;
-        break;
-    case 17:
-        hasil_line2dk = -6.7;
-        break;
-    case 18:
-        hasil_line2dk = -7;
-        break;
-    case 19:
-        hasil_line2dk = -7.3;
-        break;
-    case 20:
-        hasil_line2dk = -7.5;
-        break;
-    default:
-        // Handle default case if needed
-        break;
-}
+        var hasil_line1cp;
 
-var hasil_line2ik;
-
-switch (line2[1]) {
-    case 0:
-        hasil_line2ik = 7;
-        break;
-    case 1:
-        hasil_line2ik = 6;
-        break;
-    case 2:
-        hasil_line2ik = 4;
-        break;
-    case 3:
-        hasil_line2ik = 2.5;
-        break;
-    case 4:
-        hasil_line2ik = 0.5;
-        break;
-    case 5:
-        hasil_line2ik = 0;
-        break;
-    case 6:
-        hasil_line2ik = -2;
-        break;
-    case 7:
-        hasil_line2ik = -3.5;
-        break;
-    case 8:
-        hasil_line2ik = -4.3;
-        break;
-    case 9:
-        hasil_line2ik = -5.3;
-        break;
-    case 10:
-        hasil_line2ik = -6;
-        break;
-    case 11:
-        hasil_line2ik = -6.5;
-        break;
-    case 12:
-        hasil_line2ik = -7;
-        break;
-    case 13:
-        hasil_line2ik = -7.2;
-        break;
-    case 14:
-        hasil_line2ik = -7.2;
-        break;
-    case 15:
-        hasil_line2ik = -7.2;
-        break;
-    case 16:
-        hasil_line2ik = -7.3;
-        break;
-    case 17:
-        hasil_line2ik = -7.3;
-        break;
-    case 18:
-        hasil_line2ik = -7.3;
-        break;
-    case 19:
-        hasil_line2ik = -7.5;
-        break;
-    case 20:
-        hasil_line2ik = -8;
-        break;
-    default:
-        // Handle default case if needed
-        break;
-}
-
-var hasil_line2sk;
-
-switch (line2[2]) {
-    case 0:
-        hasil_line2sk = 7.5;
-        break;
-    case 1:
-        hasil_line2sk = 7;
-        break;
-    case 2:
-        hasil_line2sk = 6;
-        break;
-    case 3:
-        hasil_line2sk = 4;
-        break;
-    case 4:
-        hasil_line2sk = 2.5;
-        break;
-    case 5:
-        hasil_line2sk = 1.5;
-        break;
-    case 6:
-        hasil_line2sk = 0.5;
-        break;
-    case 7:
-        hasil_line2sk = -1.3;
-        break;
-    case 8:
-        hasil_line2sk = -2;
-        break;
-    case 9:
-        hasil_line2sk = -3;
-        break;
-    case 10:
-        hasil_line2sk = -4.3;
-        break;
-    case 11:
-        hasil_line2sk = -5.3;
-        break;
-    case 12:
-        hasil_line2sk = -6;
-        break;
-    case 13:
-        hasil_line2sk = -6.5;
-        break;
-    case 14:
-        hasil_line2sk = -6.7;
-        break;
-    case 15:
-        hasil_line2sk = -6.7;
-        break;
-    case 16:
-        hasil_line2sk = -7;
-        break;
-    case 17:
-        hasil_line2sk = -7.2;
-        break;
-    case 18:
-        hasil_line2sk = -7.3;
-        break;
-    case 19:
-        hasil_line2sk = -7.5;
-        break;
-    case 20:
-        hasil_line2sk = -8;
-        break;
-    default:
-        // Handle default case if needed
-        break;
-}
-
-var hasil_line2ck;
-
-switch (line2[3]) {
-    case 0:
-        hasil_line2ck = 7.5;
-        break;
-    case 1:
-        hasil_line2ck = 7;
-        break;
-    case 2:
-        hasil_line2ck = 5.6;
-        break;
-    case 3:
-        hasil_line2ck = 4;
-        break;
-    case 4:
-        hasil_line2ck = 2.5;
-        break;
-    case 5:
-        hasil_line2ck = 1.5;
-        break;
-    case 6:
-        hasil_line2ck = 0.5;
-        break;
-    case 7:
-        hasil_line2ck = 0;
-        break;
-    case 8:
-        hasil_line2ck = -1.3;
-        break;
-    case 9:
-        hasil_line2ck = -2.5;
-        break;
-    case 10:
-        hasil_line2ck = -3.5;
-        break;
-    case 11:
-        hasil_line2ck = -5.3;
-        break;
-    case 12:
-        hasil_line2ck = -5.7;
-        break;
-    case 13:
-        hasil_line2ck = -6;
-        break;
-    case 14:
-        hasil_line2ck = -6.5;
-        break;
-    case 15:
-        hasil_line2ck = -7;
-        break;
-    case 16:
-        hasil_line2ck = -7.3;
-        break;
-    case 17:
-        hasil_line2ck = -7.5;
-        break;
-    case 18:
-        hasil_line2ck = -7.7;
-        break;
-    case 19:
-        hasil_line2ck = -7.9;
-        break;
-    case 20:
-        hasil_line2ck = -8;
-        break;
-    default:
-        // Handle default case if needed
-        break;
-}
+        switch (line1[3]) {
+            case 0:
+                hasil_line1cp = -6;
+                break;
+            case 1:
+                hasil_line1cp = -4.7;
+                break;
+            case 2:
+                hasil_line1cp = -3.5;
+                break;
+            case 3:
+                hasil_line1cp = -1.5;
+                break;
+            case 4:
+                hasil_line1cp = 0.5;
+                break;
+            case 5:
+                hasil_line1cp = 2;
+                break;
+            case 6:
+                hasil_line1cp = 3;
+                break;
+            case 7:
+            case 8:
+            case 9:
+            case 10:
+            case 11:
+                hasil_line1cp = 6.5;
+                break;
+            case 12:
+            case 13:
+            case 14:
+            case 15:
+                hasil_line1cp = 7.3;
+                break;
+            case 16:
+            case 17:
+            case 18:
+            case 19:
+                hasil_line1cp = 8;
+                break;
+            case 20:
+                hasil_line1cp = 8;
+                break;
+            default:
+                break;
+        }
 
 
-          //grafik3
-          var hasil_line3a1;
+        //line2
+        var hasil_line2dk;
 
-switch (line3[0]) {
-    case -22:
-        hasil_line3a1 = -8;
-        break;
-    case -21:
-        hasil_line3a1 = -7.5;
-        break;
-    case -20:
-        hasil_line3a1 = -7;
-        break;
-    case -19:
-        hasil_line3a1 = -6.8;
-        break;
-    case -18:
-        hasil_line3a1 = -6.75;
-        break;
-    case -17:
-        hasil_line3a1 = -6.7;
-        break;
-    case -16:
-        hasil_line3a1 = -6.5;
-        break;
-    case -15:
-        hasil_line3a1 = -6.3;
-        break;
-    case -14:
-        hasil_line3a1 = -6.1;
-        break;
-    case -13:
-        hasil_line3a1 = -5.9;
-        break;
-    case -12:
-        hasil_line3a1 = -5.7;
-        break;
-    case -11:
-        hasil_line3a1 = -5.3;
-        break;
-    case -10:
-        hasil_line3a1 = -4.3;
-        break;
-    case -9:
-        hasil_line3a1 = -3.5;
-        break;
-    case -8:
-        hasil_line3a1 = -3.25;
-        break;
-    case -7:
-        hasil_line3a1 = -3;
-        break;
-    case -6:
-        hasil_line3a1 = -2.75;
-        break;
-    case -5:
-        hasil_line3a1 = -2.5;
-        break;
-    case -4:
-        hasil_line3a1 = -1.5;
-        break;
-    case -3:
-        hasil_line3a1 = -1;
-        break;
-    case -2:
-        hasil_line3a1 = -0.5;
-        break;
-    case -1:
-        hasil_line3a1 = -0.25;
-        break;
-    case 0:
-        hasil_line3a1 = 0;
-        break;
-    case 1:
-        hasil_line3a1 = 0.5;
-        break;
-    case 2:
-        hasil_line3a1 = 0.7;
-        break;
-    case 3:
-        hasil_line3a1 = 1;
-        break;
-    case 4:
-        hasil_line3a1 = 1.3;
-        break;
-    case 5:
-        hasil_line3a1 = 1.5;
-        break;
-    case 6:
-        hasil_line3a1 = 2;
-        break;
-    case 7:
-        hasil_line3a1 = 2.5;
-        break;
-    case 8:
-        hasil_line3a1 = 3.5;
-        break;
-    case 9:
-        hasil_line3a1 = 4;
-        break;
-    case 10:
-        hasil_line3a1 = 4.7;
-        break;
-    case 11:
-        hasil_line3a1 = 4.85;
-        break;
-    case 12:
-        hasil_line3a1 = 5.9;
-        break;
-    case 13:
-        hasil_line3a1 = 5.7;
-        break;
-    case 14:
-        hasil_line3a1 = 5.3;
-        break;
-    case 15:
-        hasil_line3a1 = 4.3;
-        break;
-    case 16:
-        hasil_line3a1 = 3.5;
-        break;
-    case 17:
-        hasil_line3a1 = 3.25;
-        break;
-    case 18:
-        hasil_line3a1 = 3;
-        break;
-    case 19:
-        hasil_line3a1 = 2.75;
-        break;
-    case 20:
-        hasil_line3a1 = 2.5;
-        break;
-    case 21:
-        hasil_line3a1 = 1.5;
-        break;
-    case 22:
-        hasil_line3a1 = 1;
-        break;
-    default:
-        hasil_line3a1 = 0; // or any other default value
-}
+        switch (line2[0]) {
+            case 0:
+                hasil_line2dk = 7.5;
+                break;
+            case 1:
+                hasil_line2dk = 6.5;
+                break;
+            case 2:
+                hasil_line2dk = 4.3;
+                break;
+            case 3:
+                hasil_line2dk = 2.5;
+                break;
+            case 4:
+                hasil_line2dk = 1.5;
+                break;
+            case 5:
+                hasil_line2dk = 0.5;
+                break;
+            case 6:
+                hasil_line2dk = 0;
+                break;
+            case 7:
+                hasil_line2dk = -1.3;
+                break;
+            case 8:
+                hasil_line2dk = -1.5;
+                break;
+            case 9:
+                hasil_line2dk = -2.5;
+                break;
+            case 10:
+                hasil_line2dk = -3;
+                break;
+            case 11:
+                hasil_line2dk = -3.5;
+                break;
+            case 12:
+                hasil_line2dk = -4.3;
+                break;
+            case 13:
+                hasil_line2dk = -5.3;
+                break;
+            case 14:
+                hasil_line2dk = -5.7;
+                break;
+            case 15:
+                hasil_line2dk = -6;
+                break;
+            case 16:
+                hasil_line2dk = -6.5;
+                break;
+            case 17:
+                hasil_line2dk = -6.7;
+                break;
+            case 18:
+                hasil_line2dk = -7;
+                break;
+            case 19:
+                hasil_line2dk = -7.3;
+                break;
+            case 20:
+                hasil_line2dk = -7.5;
+                break;
+            default:
+                break;
+        }
 
+        var hasil_line2ik;
 
-var hasil_line3a2;
+        switch (line2[1]) {
+            case 0:
+                hasil_line2ik = 7;
+                break;
+            case 1:
+                hasil_line2ik = 6;
+                break;
+            case 2:
+                hasil_line2ik = 4;
+                break;
+            case 3:
+                hasil_line2ik = 2.5;
+                break;
+            case 4:
+                hasil_line2ik = 0.5;
+                break;
+            case 5:
+                hasil_line2ik = 0;
+                break;
+            case 6:
+                hasil_line2ik = -2;
+                break;
+            case 7:
+                hasil_line2ik = -3.5;
+                break;
+            case 8:
+                hasil_line2ik = -4.3;
+                break;
+            case 9:
+                hasil_line2ik = -5.3;
+                break;
+            case 10:
+                hasil_line2ik = -6;
+                break;
+            case 11:
+                hasil_line2ik = -6.5;
+                break;
+            case 12:
+                hasil_line2ik = -7;
+                break;
+            case 13:
+                hasil_line2ik = -7.2;
+                break;
+            case 14:
+                hasil_line2ik = -7.2;
+                break;
+            case 15:
+                hasil_line2ik = -7.2;
+                break;
+            case 16:
+                hasil_line2ik = -7.3;
+                break;
+            case 17:
+                hasil_line2ik = -7.3;
+                break;
+            case 18:
+                hasil_line2ik = -7.3;
+                break;
+            case 19:
+                hasil_line2ik = -7.5;
+                break;
+            case 20:
+                hasil_line2ik = -8;
+                break;
+            default:
+                // Handle default case if needed
+                break;
+        }
 
-switch (line3[1]) {
-    case -22:
-    case -21:
-    case -20:
-    case -19:
-        hasil_line3a2 = -8;
-        break;
-    case -18:
-        hasil_line3a2 = -7;
-        break;
-    case -17:
-    case -16:
-    case -15:
-    case -14:
-    case -13:
-    case -12:
-    case -11:
-        hasil_line3a2 = -6.7;
-        break;
-    case -10:
-        hasil_line3a2 = -6.5;
-        break;
-    case -9:
-        hasil_line3a2 = -6;
-        break;
-    case -8:
-        hasil_line3a2 = -5.7;
-        break;
-    case -7:
-        hasil_line3a2 = -4.7;
-        break;
-    case -6:
-        hasil_line3a2 = -4.3;
-        break;
-    case -5:
-        hasil_line3a2 = -3.5;
-        break;
-    case -4:
-        hasil_line3a2 = -3;
-        break;
-    case -3:
-        hasil_line3a2 = -2;
-        break;
-    case -2:
-        hasil_line3a2 = -1.5;
-        break;
-    case -1:
-        hasil_line3a2 = 0;
-        break;
-    case 0:
-        hasil_line3a2 = 0.5;
-        break;
-    case 1:
-        hasil_line3a2 = 1;
-        break;
-    case 2:
-        hasil_line3a2 = 1.5;
-        break;
-    case 3:
-        hasil_line3a2 = 3;
-        break;
-    case 4:
-        hasil_line3a2 = 4;
-        break;
-    case 5:
-        hasil_line3a2 = 4.3;
-        break;
-    case 6:
-        hasil_line3a2 = 5;
-        break;
-    case 7:
-        hasil_line3a2 = 5.5;
-        break;
-    case 8:
-        hasil_line3a2 = 6.5;
-        break;
-    case 9:
-        hasil_line3a2 = 6.7;
-        break;
-    case 10:
-        hasil_line3a2 = 7;
-        break;
-    case 11:
-    case 12:
-    case 13:
-    case 14:
-    case 15:
-    case 16:
-    case 17:
-    case 18:
-        hasil_line3a2 = 7.3;
-        break;
-    case 19:
-        hasil_line3a2 = 7.5;
-        break;
-    case 20:
-    case 21:
-    case 22:
-        hasil_line3a2 = 8;
-        break;
-    default:
-        hasil_line3a2 = 0; // or any other default value
-}
+        var hasil_line2sk;
 
+        switch (line2[2]) {
+            case 0:
+                hasil_line2sk = 7.5;
+                break;
+            case 1:
+                hasil_line2sk = 7;
+                break;
+            case 2:
+                hasil_line2sk = 6;
+                break;
+            case 3:
+                hasil_line2sk = 4;
+                break;
+            case 4:
+                hasil_line2sk = 2.5;
+                break;
+            case 5:
+                hasil_line2sk = 1.5;
+                break;
+            case 6:
+                hasil_line2sk = 0.5;
+                break;
+            case 7:
+                hasil_line2sk = -1.3;
+                break;
+            case 8:
+                hasil_line2sk = -2;
+                break;
+            case 9:
+                hasil_line2sk = -3;
+                break;
+            case 10:
+                hasil_line2sk = -4.3;
+                break;
+            case 11:
+                hasil_line2sk = -5.3;
+                break;
+            case 12:
+                hasil_line2sk = -6;
+                break;
+            case 13:
+                hasil_line2sk = -6.5;
+                break;
+            case 14:
+                hasil_line2sk = -6.7;
+                break;
+            case 15:
+                hasil_line2sk = -6.7;
+                break;
+            case 16:
+                hasil_line2sk = -7;
+                break;
+            case 17:
+                hasil_line2sk = -7.2;
+                break;
+            case 18:
+                hasil_line2sk = -7.3;
+                break;
+            case 19:
+                hasil_line2sk = -7.5;
+                break;
+            case 20:
+                hasil_line2sk = -8;
+                break;
+            default:
+                break;
+        }
 
-var hasil_line3a3;
+        var hasil_line2ck;
 
-switch (line3[2]) {
-    case -22:
-    case -21:
-    case -20:
-    case -19:
-        hasil_line3a3 = -8;
-        break;
-    case -18:
-        hasil_line3a3 = -7.5;
-        break;
-    case -17:
-    case -16:
-    case -15:
-    case -14:
-    case -13:
-    case -12:
-    case -11:
-        hasil_line3a3 = -7.3;
-        break;
-    case -10:
-        hasil_line3a3 = -6;
-        break;
-    case -9:
-        hasil_line3a3 = -4.7;
-        break;
-    case -8:
-        hasil_line3a3 = -4.3;
-        break;
-    case -7:
-        hasil_line3a3 = -3.5;
-        break;
-    case -6:
-        hasil_line3a3 = -3;
-        break;
-    case -5:
-        hasil_line3a3 = -2;
-        break;
-    case -4:
-        hasil_line3a3 = -1.5;
-        break;
-    case -3:
-        hasil_line3a3 = -1;
-        break;
-    case -2:
-        hasil_line3a3 = -0.5;
-        break;
-    case -1:
-        hasil_line3a3 = 0;
-        break;
-    case 0:
-        hasil_line3a3 = 1;
-        break;
-    case 1:
-        hasil_line3a3 = 1.5;
-        break;
-    case 2:
-        hasil_line3a3 = 2;
-        break;
-    case 3:
-        hasil_line3a3 = 3;
-        break;
-    case 4:
-        hasil_line3a3 = 3.5;
-        break;
-    case 5:
-        hasil_line3a3 = 4;
-        break;
-    case 6:
-        hasil_line3a3 = 4.3;
-        break;
-    case 7:
-        hasil_line3a3 = 4.7;
-        break;
-    case 8:
-        hasil_line3a3 = 5;
-        break;
-    case 9:
-        hasil_line3a3 = 5.5;
-        break;
-    case 10:
-        hasil_line3a3 = 6;
-        break;
-    case 11:
-        hasil_line3a3 = 6.2;
-        break;
-    case 12:
-        hasil_line3a3 = 6.3;
-        break;
-    case 13:
-        hasil_line3a3 = 6.5;
-        break;
-    case 14:
-        hasil_line3a3 = 6.7;
-        break;
-    case 15:
-        hasil_line3a3 = 7;
-        break;
-    case 16:
-    case 17:
-    case 18:
-    case 19:
-        hasil_line3a3 = 7.3;
-        break;
-    case 20:
-        hasil_line3a3 = 7.5;
-        break;
-    case 21:
-    case 22:
-        hasil_line3a3 = 8;
-        break;
-    default:
-        hasil_line3a3 = 0; // or any other default value
-}
+        switch (line2[3]) {
+            case 0:
+                hasil_line2ck = 7.5;
+                break;
+            case 1:
+                hasil_line2ck = 7;
+                break;
+            case 2:
+                hasil_line2ck = 5.6;
+                break;
+            case 3:
+                hasil_line2ck = 4;
+                break;
+            case 4:
+                hasil_line2ck = 2.5;
+                break;
+            case 5:
+                hasil_line2ck = 1.5;
+                break;
+            case 6:
+                hasil_line2ck = 0.5;
+                break;
+            case 7:
+                hasil_line2ck = 0;
+                break;
+            case 8:
+                hasil_line2ck = -1.3;
+                break;
+            case 9:
+                hasil_line2ck = -2.5;
+                break;
+            case 10:
+                hasil_line2ck = -3.5;
+                break;
+            case 11:
+                hasil_line2ck = -5.3;
+                break;
+            case 12:
+                hasil_line2ck = -5.7;
+                break;
+            case 13:
+                hasil_line2ck = -6;
+                break;
+            case 14:
+                hasil_line2ck = -6.5;
+                break;
+            case 15:
+                hasil_line2ck = -7;
+                break;
+            case 16:
+                hasil_line2ck = -7.3;
+                break;
+            case 17:
+                hasil_line2ck = -7.5;
+                break;
+            case 18:
+                hasil_line2ck = -7.7;
+                break;
+            case 19:
+                hasil_line2ck = -7.9;
+                break;
+            case 20:
+                hasil_line2ck = -8;
+                break;
+            default:
+                // Handle default case if needed
+                break;
+        }
 
 
-var hasil_line3a4;
+                //grafik3
+                var hasil_line3a1;
 
-switch (line3[3]) {
-    case -22:
-    case -21:
-    case -20:
-    case -19:
-        hasil_line3a4 = -7.5;
-        break;
-    case -18:
-        hasil_line3a4 = -7.3;
-        break;
-    case -17:
-    case -16:
-    case -15:
-    case -14:
-    case -13:
-    case -12:
-    case -11:
-        hasil_line3a4 = -6.7;
-        break;
-    case -10:
-        hasil_line3a4 = -5.7;
-        break;
-    case -9:
-        hasil_line3a4 = -4.7;
-        break;
-    case -8:
-        hasil_line3a4 = -4.3;
-        break;
-    case -7:
-        hasil_line3a4 = -3.5;
-        break;
-    case -6:
-        hasil_line3a4 = -3;
-        break;
-    case -5:
-        hasil_line3a4 = -2.5;
-        break;
-    case -4:
-        hasil_line3a4 = -0.5;
-        break;
-    case -3:
-        hasil_line3a4 = 0;
-        break;
-    case -2:
-        hasil_line3a4 = 0.3;
-        break;
-    case -1:
-        hasil_line3a4 = 0.5;
-        break;
-    case 0:
-        hasil_line3a4 = 1.5;
-        break;
-    case 1:
-        hasil_line3a4 = 3;
-        break;
-    case 2:
-        hasil_line3a4 = 4;
-        break;
-    case 3:
-        hasil_line3a4 = 4.3;
-        break;
-    case 4:
-        hasil_line3a4 = 5.5;
-        break;
-    case 5:
-        hasil_line3a4 = 5.7;
-        break;
-    case 6:
-        hasil_line3a4 = 6;
-        break;
-    case 7:
-        hasil_line3a4 = 6.3;
-        break;
-    case 8:
-        hasil_line3a4 = 6.5;
-        break;
-    case 9:
-        hasil_line3a4 = 6.7;
-        break;
-    case 10:
-        hasil_line3a4 = 7;
-        break;
-    case 11:
-    case 12:
-    case 13:
-    case 14:
-    case 15:
-    case 16:
-    case 17:
-    case 18:
-        hasil_line3a4 = 7.3;
-        break;
-    case 19:
-    case 20:
-    case 21:
-    case 22:
-        hasil_line3a4 = 8;
-        break;
-    default:
-        hasil_line3a4 = 0; // or any other default value
-}
+        switch (line3[0]) {
+            case -22:
+                hasil_line3a1 = -8;
+                break;
+            case -21:
+                hasil_line3a1 = -7.5;
+                break;
+            case -20:
+                hasil_line3a1 = -7;
+                break;
+            case -19:
+                hasil_line3a1 = -6.8;
+                break;
+            case -18:
+                hasil_line3a1 = -6.75;
+                break;
+            case -17:
+                hasil_line3a1 = -6.7;
+                break;
+            case -16:
+                hasil_line3a1 = -6.5;
+                break;
+            case -15:
+                hasil_line3a1 = -6.3;
+                break;
+            case -14:
+                hasil_line3a1 = -6.1;
+                break;
+            case -13:
+                hasil_line3a1 = -5.9;
+                break;
+            case -12:
+                hasil_line3a1 = -5.7;
+                break;
+            case -11:
+                hasil_line3a1 = -5.3;
+                break;
+            case -10:
+                hasil_line3a1 = -4.3;
+                break;
+            case -9:
+                hasil_line3a1 = -3.5;
+                break;
+            case -8:
+                hasil_line3a1 = -3.25;
+                break;
+            case -7:
+                hasil_line3a1 = -3;
+                break;
+            case -6:
+                hasil_line3a1 = -2.75;
+                break;
+            case -5:
+                hasil_line3a1 = -2.5;
+                break;
+            case -4:
+                hasil_line3a1 = -1.5;
+                break;
+            case -3:
+                hasil_line3a1 = -1;
+                break;
+            case -2:
+                hasil_line3a1 = -0.5;
+                break;
+            case -1:
+                hasil_line3a1 = -0.25;
+                break;
+            case 0:
+                hasil_line3a1 = 0;
+                break;
+            case 1:
+                hasil_line3a1 = 0.5;
+                break;
+            case 2:
+                hasil_line3a1 = 0.7;
+                break;
+            case 3:
+                hasil_line3a1 = 1;
+                break;
+            case 4:
+                hasil_line3a1 = 1.3;
+                break;
+            case 5:
+                hasil_line3a1 = 1.5;
+                break;
+            case 6:
+                hasil_line3a1 = 2;
+                break;
+            case 7:
+                hasil_line3a1 = 2.5;
+                break;
+            case 8:
+                hasil_line3a1 = 3.5;
+                break;
+            case 9:
+                hasil_line3a1 = 4;
+                break;
+            case 10:
+                hasil_line3a1 = 4.7;
+                break;
+            case 11:
+                hasil_line3a1 = 4.85;
+                break;
+            case 12:
+                hasil_line3a1 = 5.9;
+                break;
+            case 13:
+                hasil_line3a1 = 5.7;
+                break;
+            case 14:
+                hasil_line3a1 = 5.3;
+                break;
+            case 15:
+                hasil_line3a1 = 4.3;
+                break;
+            case 16:
+                hasil_line3a1 = 3.5;
+                break;
+            case 17:
+                hasil_line3a1 = 3.25;
+                break;
+            case 18:
+                hasil_line3a1 = 3;
+                break;
+            case 19:
+                hasil_line3a1 = 2.75;
+                break;
+            case 20:
+                hasil_line3a1 = 2.5;
+                break;
+            case 21:
+                hasil_line3a1 = 1.5;
+                break;
+            case 22:
+                hasil_line3a1 = 1;
+                break;
+            default:
+                hasil_line3a1 = 0; // or any other default value
+        }
+
+
+        var hasil_line3a2;
+
+        switch (line3[1]) {
+            case -22:
+            case -21:
+            case -20:
+            case -19:
+                hasil_line3a2 = -8;
+                break;
+            case -18:
+                hasil_line3a2 = -7;
+                break;
+            case -17:
+            case -16:
+            case -15:
+            case -14:
+            case -13:
+            case -12:
+            case -11:
+                hasil_line3a2 = -6.7;
+                break;
+            case -10:
+                hasil_line3a2 = -6.5;
+                break;
+            case -9:
+                hasil_line3a2 = -6;
+                break;
+            case -8:
+                hasil_line3a2 = -5.7;
+                break;
+            case -7:
+                hasil_line3a2 = -4.7;
+                break;
+            case -6:
+                hasil_line3a2 = -4.3;
+                break;
+            case -5:
+                hasil_line3a2 = -3.5;
+                break;
+            case -4:
+                hasil_line3a2 = -3;
+                break;
+            case -3:
+                hasil_line3a2 = -2;
+                break;
+            case -2:
+                hasil_line3a2 = -1.5;
+                break;
+            case -1:
+                hasil_line3a2 = 0;
+                break;
+            case 0:
+                hasil_line3a2 = 0.5;
+                break;
+            case 1:
+                hasil_line3a2 = 1;
+                break;
+            case 2:
+                hasil_line3a2 = 1.5;
+                break;
+            case 3:
+                hasil_line3a2 = 3;
+                break;
+            case 4:
+                hasil_line3a2 = 4;
+                break;
+            case 5:
+                hasil_line3a2 = 4.3;
+                break;
+            case 6:
+                hasil_line3a2 = 5;
+                break;
+            case 7:
+                hasil_line3a2 = 5.5;
+                break;
+            case 8:
+                hasil_line3a2 = 6.5;
+                break;
+            case 9:
+                hasil_line3a2 = 6.7;
+                break;
+            case 10:
+                hasil_line3a2 = 7;
+                break;
+            case 11:
+            case 12:
+            case 13:
+            case 14:
+            case 15:
+            case 16:
+            case 17:
+            case 18:
+                hasil_line3a2 = 7.3;
+                break;
+            case 19:
+                hasil_line3a2 = 7.5;
+                break;
+            case 20:
+            case 21:
+            case 22:
+                hasil_line3a2 = 8;
+                break;
+            default:
+                hasil_line3a2 = 0; // or any other default value
+        }
+
+
+        var hasil_line3a3;
+
+        switch (line3[2]) {
+            case -22:
+            case -21:
+            case -20:
+            case -19:
+                hasil_line3a3 = -8;
+                break;
+            case -18:
+                hasil_line3a3 = -7.5;
+                break;
+            case -17:
+            case -16:
+            case -15:
+            case -14:
+            case -13:
+            case -12:
+            case -11:
+                hasil_line3a3 = -7.3;
+                break;
+            case -10:
+                hasil_line3a3 = -6;
+                break;
+            case -9:
+                hasil_line3a3 = -4.7;
+                break;
+            case -8:
+                hasil_line3a3 = -4.3;
+                break;
+            case -7:
+                hasil_line3a3 = -3.5;
+                break;
+            case -6:
+                hasil_line3a3 = -3;
+                break;
+            case -5:
+                hasil_line3a3 = -2;
+                break;
+            case -4:
+                hasil_line3a3 = -1.5;
+                break;
+            case -3:
+                hasil_line3a3 = -1;
+                break;
+            case -2:
+                hasil_line3a3 = -0.5;
+                break;
+            case -1:
+                hasil_line3a3 = 0;
+                break;
+            case 0:
+                hasil_line3a3 = 1;
+                break;
+            case 1:
+                hasil_line3a3 = 1.5;
+                break;
+            case 2:
+                hasil_line3a3 = 2;
+                break;
+            case 3:
+                hasil_line3a3 = 3;
+                break;
+            case 4:
+                hasil_line3a3 = 3.5;
+                break;
+            case 5:
+                hasil_line3a3 = 4;
+                break;
+            case 6:
+                hasil_line3a3 = 4.3;
+                break;
+            case 7:
+                hasil_line3a3 = 4.7;
+                break;
+            case 8:
+                hasil_line3a3 = 5;
+                break;
+            case 9:
+                hasil_line3a3 = 5.5;
+                break;
+            case 10:
+                hasil_line3a3 = 6;
+                break;
+            case 11:
+                hasil_line3a3 = 6.2;
+                break;
+            case 12:
+                hasil_line3a3 = 6.3;
+                break;
+            case 13:
+                hasil_line3a3 = 6.5;
+                break;
+            case 14:
+                hasil_line3a3 = 6.7;
+                break;
+            case 15:
+                hasil_line3a3 = 7;
+                break;
+            case 16:
+            case 17:
+            case 18:
+            case 19:
+                hasil_line3a3 = 7.3;
+                break;
+            case 20:
+                hasil_line3a3 = 7.5;
+                break;
+            case 21:
+            case 22:
+                hasil_line3a3 = 8;
+                break;
+            default:
+                hasil_line3a3 = 0; // or any other default value
+        }
+
+
+        var hasil_line3a4;
+
+        switch (line3[3]) {
+            case -22:
+            case -21:
+            case -20:
+            case -19:
+                hasil_line3a4 = -7.5;
+                break;
+            case -18:
+                hasil_line3a4 = -7.3;
+                break;
+            case -17:
+            case -16:
+            case -15:
+            case -14:
+            case -13:
+            case -12:
+            case -11:
+                hasil_line3a4 = -6.7;
+                break;
+            case -10:
+                hasil_line3a4 = -5.7;
+                break;
+            case -9:
+                hasil_line3a4 = -4.7;
+                break;
+            case -8:
+                hasil_line3a4 = -4.3;
+                break;
+            case -7:
+                hasil_line3a4 = -3.5;
+                break;
+            case -6:
+                hasil_line3a4 = -3;
+                break;
+            case -5:
+                hasil_line3a4 = -2.5;
+                break;
+            case -4:
+                hasil_line3a4 = -0.5;
+                break;
+            case -3:
+                hasil_line3a4 = 0;
+                break;
+            case -2:
+                hasil_line3a4 = 0.3;
+                break;
+            case -1:
+                hasil_line3a4 = 0.5;
+                break;
+            case 0:
+                hasil_line3a4 = 1.5;
+                break;
+            case 1:
+                hasil_line3a4 = 3;
+                break;
+            case 2:
+                hasil_line3a4 = 4;
+                break;
+            case 3:
+                hasil_line3a4 = 4.3;
+                break;
+            case 4:
+                hasil_line3a4 = 5.5;
+                break;
+            case 5:
+                hasil_line3a4 = 5.7;
+                break;
+            case 6:
+                hasil_line3a4 = 6;
+                break;
+            case 7:
+                hasil_line3a4 = 6.3;
+                break;
+            case 8:
+                hasil_line3a4 = 6.5;
+                break;
+            case 9:
+                hasil_line3a4 = 6.7;
+                break;
+            case 10:
+                hasil_line3a4 = 7;
+                break;
+            case 11:
+            case 12:
+            case 13:
+            case 14:
+            case 15:
+            case 16:
+            case 17:
+            case 18:
+                hasil_line3a4 = 7.3;
+                break;
+            case 19:
+            case 20:
+            case 21:
+            case 22:
+                hasil_line3a4 = 8;
+                break;
+            default:
+                hasil_line3a4 = 0; // or any other default value
+        }
 
 
             
