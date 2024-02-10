@@ -21,7 +21,7 @@
       justify-content: center;
       min-height: 100vh;
       width: 100%;
-      background-image: url("psychologist_profession.jpg");
+      background-image: url("8750072.jpg");
       background-size: cover;
     }
 
