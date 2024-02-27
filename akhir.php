@@ -25,7 +25,7 @@
 <body>
   <div class="container text-center">
         <h1 class="mb-4">Terima Kasih telah mengerjakan Tes DISC</h1>
-        <p class="lead">Jawaban tes anda telah terkirim <br> silahkan menunggu informasi HR selanjutnya</p>
+        <p class="lead">Jawaban tes anda telah terkirim. <br> Silahkan menunggu informasi HR selanjutnya</p>
   </div>
 </body>
 </html>
