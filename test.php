@@ -3426,24 +3426,32 @@ function getRadioValues() {
           var kep_sembunyi = [umum3, kep3]
           var job = tableKepribadian[baris3].JOB_RELEVAN;
           var person = tableKepribadian[baris3].Personality;
-        console.log(line1);
-        console.log(line2);
-        console.log(line3);
-        console.log(grafik1);
-        console.log(grafik2);
-        console.log(grafik3);
-          console.log(kep_umum);
-          console.log(kep_tekan);
-          console.log(kep_sembunyi);
-          console.log(job);
-          console.log(person);
-          console.log(jawab);
+        // console.log(line1);
+        // console.log(line2);
+        // console.log(line3);
+        // console.log(grafik1);
+        // console.log(grafik2);
+        // console.log(grafik3);
+        //   console.log(kep_umum);
+        //   console.log(kep_tekan);
+        //   console.log(kep_sembunyi);
+        //   console.log(job);
+        //   console.log(person);
+        //   console.log(jawab);
           
 
           var data = localStorage.getItem('key');
 
-      var parsedData = JSON.parse(data);
-      var nik = parsedData.data.nik;
+          if (data) {
+            var parsedData = JSON.parse(data);
+            if (parsedData && parsedData.nik) {
+                var nik = parsedData.nik;
+            } else {
+                console.error("Properti 'nik' tidak ditemukan dalam struktur data.");
+            }
+        } else {
+            console.error("Data tidak ditemukan di localStorage.");
+        }
       
 
       $.ajax({
